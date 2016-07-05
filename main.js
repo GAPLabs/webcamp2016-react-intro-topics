@@ -1,26 +1,25 @@
-// Variables
+// Control Flow
 
-// Variable declaration
-// var x; // declared an undefined variable x
+// If Else Statement
+// var x = 0;
 
-// Declaring a variable and setting a value to it
-// var y = 0;
-// var word = "i am a word";
-// var state = false;
+// if(x == 0) {
+// 	console.log("x is zero");
+// }
+// else {
+// 	console.log("x is not zero");
+// }
 
-// console.log(state);
 
-// Using a declared variable in an expression
-// var number = 5;
-// console.log(number + number);
+// While Statement
+// var x = 10;
 
-// Variables can refer to the same value
-// var savings = 1000;
-// savings = savings - 100;
-// console.log(savings);
+// while(x>0) {
+// 	console.log("x is greater than 0");
+// 	x--;
+// }
 
-// Defining multiple variables using one var statement
-// var x = 0,
-// 	   y = 2,
-// 	   z = 100;
-
+// For Statement
+// for(x=0 ; x<10 ; x++) {
+// 	console.log("x is less than 10");
+// }
