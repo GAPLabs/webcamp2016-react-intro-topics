@@ -1,25 +1,14 @@
-// Control Flow
+// Document Object Model
+// console.log(document);
 
-// If Else Statement
-// var x = 0;
+// Finding Elements
+// var form = document.getElementById("myform");
+// console.log(form);
 
-// if(x == 0) {
-// 	console.log("x is zero");
-// }
-// else {
-// 	console.log("x is not zero");
-// }
+// var p = document.getElementsByTagName("p");
+// console.log(p); // result is an array
+// console.log(p[0])
 
+// var link = document.querySelector(".mylink");
+// console.log(link);
 
-// While Statement
-// var x = 10;
-
-// while(x>0) {
-// 	console.log("x is greater than 0");
-// 	x--;
-// }
-
-// For Statement
-// for(x=0 ; x<10 ; x++) {
-// 	console.log("x is less than 10");
-// }
