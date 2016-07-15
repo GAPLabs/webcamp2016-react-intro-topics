@@ -24,3 +24,25 @@
 // 	   y = 2,
 // 	   z = 100;
 
+// Defining variables using let (global)
+// var x = 12;
+// let y = 10;
+
+// console.log(this);
+// console.log(this.x);
+// console.log(this.y);
+
+
+// Showing let scope
+// function showNumber() {
+// 	var x = 9;
+
+// 	if(x > 0) {
+// 		let y = 1;
+// 		console.log(y);
+// 	}
+
+// 	console.log(y);
+// }
+
+// showNumber();
