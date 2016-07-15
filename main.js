@@ -29,16 +29,20 @@
 // console.log(sentence.pop()); // React
 // console.log(sentence); // ["Welcome", "to"]
 
-// Object Declaration
-// var presentation = {
-// 	topic: "React.js",
-// 	members: ["Daisyrie","Adam", "Jare", "Chino"],
-// 	numberOfParticipants: 20,
-// 	dateOfPresentation: new Date("July 16, 2016"),
-// 	onSchedule: true
-// }
-// console.log(presentation.topic);
-// console.log(presentation.members);
-// console.log(presentation.numberOfParticipants);
-// console.log(presentation.dateOfPresentation);
-// console.log(presentation.onSchedule);
+//Object Declaration
+var presentation = {
+	topic: "React.js",
+	members: ["Daisyrie","Adam", "Jare", "Chino"],
+	numberOfParticipants: 20,
+	dateOfPresentation: new Date("July 16, 2016"),
+	onSchedule: true,
+	greet: function() {
+		return "Hello " + presentation.members[0];
+	}
+}
+console.log(presentation.topic);
+console.log(presentation.members);
+console.log(presentation.numberOfParticipants);
+console.log(presentation.dateOfPresentation);
+console.log(presentation.onSchedule);
+console.log(presentation.greet());
