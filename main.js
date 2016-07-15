@@ -12,3 +12,6 @@
 // var link = document.querySelector(".mylink");
 // console.log(link);
 
+// Inserting elements
+// var paragraphs = document.getElementsByTagName("p");
+// document.body.insertBefore(paragraphs[2], paragraphs[0]);
